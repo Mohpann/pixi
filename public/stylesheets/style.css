@@ -1,0 +1,25 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#screen {
+  /* Necessary to make sure frame width/height
+  isn't set according to the canvas element */
+  position: absolute;
+  overflow: hidden;
+  
+  /* Optional stuff for positioning */
+  top:50%;
+  left:50%;
+  width: 85%;
+  height: 85%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+* {
+  padding: 0; margin: 0
+}
